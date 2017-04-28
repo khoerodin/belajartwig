@@ -1,0 +1,8 @@
+{% extends 'layout.twig' %}
+
+{% block title 'Ini Contact '~pageData.title %}
+
+{% block body %}
+    {{ include('_banner.twig', {'backgroundColor': 'yellow'}) }}
+    <h1>{{ pageData.title }}</h1>
+{% endblock %}
